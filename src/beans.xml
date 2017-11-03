@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="ReaderService" class="com.service.impl.ReaderServiceImpl"></bean>
+	<bean id="AdminService" class="com.service.impl.AdminServiceImpl"></bean>
+	<bean id="BookService" class="com.service.impl.BookServiceImpl"></bean>
+	<bean id="BookTypeService" class="com.service.impl.BookTypeServiceImpl"></bean>
+	<bean id="BorrowService" class="com.service.impl.BorrowServiceImpl"></bean>
+	<bean id="BackService" class="com.service.impl.BackServiceImpl"></bean>
+	<bean id="ForfeitService" class="com.service.impl.ForfeitServiceImpl"></bean>
+
+   <bean id="ReaderDao" class="com.dao.impl.ReaderDaoImpl"/>
+   <bean id="AdminDao" class="com.dao.impl.AdminDaoImpl"/>
+   <bean id="ForfeitDao" class="com.dao.impl.ForfeitDaoImpl"/>
+   <bean id="BookDao" class="com.dao.impl.BookDaoImpl"/>
+   <bean id="BookTypeDao" class="com.dao.impl.BookTypeDaoImpl"/>
+   <bean id="BorrowDao" class="com.dao.impl.BorrowDaoImpl"/>
+   <bean id="BorrowInfoDao" class="com.dao.impl.BorrowInfoDaoImpl"/>
+   <bean id="BackDao" class="com.dao.impl.BackDaoImpl"/>
+</beans>
+
